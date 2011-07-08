@@ -9,10 +9,10 @@ public class Problem2 {
         int x1 = 0; // the term 1 prior in the series
         
         while (x < limit) {
-        	total += x % 2 == 0 ? x : 0;
-        	int oldx1 = x1;
-        	x1 = x;
-        	x = x + oldx1;
+            total += x % 2 == 0 ? x : 0;
+            int oldx1 = x1;
+            x1 = x;
+            x = x + oldx1;
         }
 
         System.out.println("total=" + total);
