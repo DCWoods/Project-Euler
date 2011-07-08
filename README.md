@@ -6,6 +6,7 @@ I have set myself a few rules:
 
 * I have to solve all of the problems myself, no cheating by looking at other people's solutions.
 * I have to use the base language, no third-party libraries to make it easy, although I can define my own utilities as I go along and use these.
+* No going on to the next problem until I've solved a problem in at least one language.  I'll also try not to fall too far behind in any language, but won't be too strict about this.
 
 There are obviously many ways of solving some of the problems, and my early attempts are likely not to use the most efficient methods.  I'm ok with this, as long as I'm within the suggested 1min limit.  I may go back and resolve some of the problems if I think of a better way, or may present multiple solution methods sometimes.
 
