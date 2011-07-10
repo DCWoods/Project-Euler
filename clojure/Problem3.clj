@@ -15,8 +15,8 @@
     (let [j (/ x i)]
       (if (and (integer? j) (= 0 (mod x j)))
           (if (prime? j)
-            j
-            (recur (inc i)))
+              j
+              (recur (inc i)))
           (recur (inc i))))))
       
 (println (largest-prime-factor 600851475143))
