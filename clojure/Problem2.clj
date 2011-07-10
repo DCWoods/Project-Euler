@@ -12,3 +12,5 @@
     (apply + (filter even?
                      (take-while (fn [e] (< e x))
                                  (fibonacci)))))
+
+(println (even-fibonacci-less-than-limit 4000000))
