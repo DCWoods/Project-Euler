@@ -1,0 +1,21 @@
+*PROBLEM 3;
+data _null_;
+    x = 600851475143;
+
+    do lowFactor=2 to x-1;
+        highFactor = x / lowFactor;
+        if mod(highFactor,1) = 0 then do;
+            prime = 'T';
+            do i=2 to sqrt(highFactor);
+                if mod(highFactor,i) = 0 then do;
+                    prime = 'F';
+                    leave;
+                end;
+            end;
+            if prime = 'T' then do;
+                put highFactor=;
+                stop;
+            end;
+        end;
+    end;
+run;

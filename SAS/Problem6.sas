@@ -1,0 +1,13 @@
+*PROBLEM 6;
+data _null_;
+    n = 100;
+    sqrSum = 0;
+    sumSqrs = 0;
+    do i=1 to n;
+        sqrSum + i;
+        sumSqrs + i**2;
+    end;
+    sqrSum = sqrSum**2;
+    difference = sqrSum - sumSqrs;
+    put difference=;
+run;
