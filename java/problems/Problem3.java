@@ -22,7 +22,7 @@ public class Problem3 {
                         break;
                     }
                 }
-                    
+                   
                 if (prime) {
                     System.out.println("Largest prime factor of " + 
                             x + " is " + (long) highFactor);
